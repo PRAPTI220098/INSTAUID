@@ -28,4 +28,4 @@ def api(id):
       return f"<b>{img}</b>"      
       
 if __name__ == '__main__':
-      d.run(debug=True)
+      d.run(host='0.0.0.0', port=7861)
