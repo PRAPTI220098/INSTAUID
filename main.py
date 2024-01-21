@@ -25,7 +25,7 @@ def api(id):
 'url': f'https://www.instagram.com/{u}',
 'timestamp': '1702992016308'}
       img = requests.get(bu, params=p, headers=h).json()['result']['userId']
-      return f"<b>{img}</b>"      
+      return f"{img}"      
       
 if __name__ == '__main__':
       d.run(host='0.0.0.0', port=7861)
